@@ -1,6 +1,5 @@
 package ai205.svetashov;
 
-import java.sql.SQLOutput;
 
 public class Prim {//static or public
 
