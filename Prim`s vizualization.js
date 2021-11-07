@@ -8,12 +8,14 @@ const logger = new LogTracer();
 Layout.setRoot(new VerticalLayout([tracer, logger]));
 tracer.log(logger);
  let G = [ // G[i][j] indicates the weight of the path from the i-th node to the j-th node
- [0, 3, 0, 0, 6, 5],
- [3, 0, 1, 0, 0, 4],
- [0, 1, 0, 6,0, 4],
- [0, 0, 6, 0, 8, 5],
- [6, 0, 0, 8, 0,2],
- [5, 4, 4, 5, 2,0]
+ [0, 0, 2, 1, 0, 8, 0, 0],//1
+ [0, 0, 1, 6, 0, 3, 4, 0],//2
+ [2, 1, 0, 0 ,0, 0, 0, 4],//3
+ [1, 6, 0, 0, 4, 0, 0, 0],//4
+ [0, 0, 0, 4, 0, 0, 7, 0],//5
+ [8, 3, 0, 0, 0, 0, 0, 3],//6
+ [0, 4, 0, 0, 7, 0, 0, 5],//7
+ [0, 0, 4, 0, 0, 3, 5, 0]//8
  ]; 
 //const G = Randomize.Graph({ N: 10, ratio: .4, directed: false, weighted: true });
 tracer.set(G);
