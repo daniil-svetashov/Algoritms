@@ -37,8 +37,8 @@ public class Floyd {
         for (int k = 0; k < G.length; k++) {
             for (int i = 0; i < G.length; i++) {
                 for (int j = 0; j < G.length; j++) {
-                    if (i != j && G[i][j] > G[i][k] + G[j][k]) {
-                        G[i][j] = G[i][k] + G[j][k];
+                    if (i != j && G[i][j] > G[i][k] + G[k][j]) {
+                        G[i][j] = G[i][k] + G[k][j];
                         D[i][j] = k;
                     }
                 }
