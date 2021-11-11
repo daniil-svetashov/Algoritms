@@ -12,3 +12,7 @@ https://habr.com/ru/post/105825/
 
 Полезно про алгоритм Дейкстры. Тут и его отличие от Флойда 
 https://prog-cpp.ru/deikstra/
+
+Про Флойда, ссылка от Юлии Дрозд
+https://www.mathros.net.ua/pryklad-znahodzhennja-dereva-minimalnoi-vartosti-dlja-orijentovanogo-grafa-za-algorytmom-flojda.html
+
