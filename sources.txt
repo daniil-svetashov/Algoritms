@@ -9,3 +9,6 @@ https://cpp.mazurok.com/tag/%D0%B0%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC-%D1
 
 Алгоримт Флойда Хабр
 https://habr.com/ru/post/105825/
+
+Полезно про алгоритм Дейкстры. Тут и его отличие от Флойда 
+https://prog-cpp.ru/deikstra/
