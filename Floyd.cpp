@@ -1,6 +1,5 @@
 #include <iostream>
 #include <cstdlib>//library for min and max
-//min(a,b); Returns the argument which is smaller than another one 
 
 using namespace std;
 
@@ -52,7 +51,7 @@ int main()
             for (int j = 0; j < V; j++)
             {
                 if (i != j)
-                    cout << G[i][j] << "  ";
+                    cout << G[i][j];
                 else cout << "-  ";
                 cout << "\t";
             }
@@ -66,7 +65,10 @@ int main()
         {
             for (int j = 0; j < V; j++)
             {
-                cout << D[i][j] << " ";
+                if (i != j)
+                cout << D[i][j];
+                else cout << "-  ";
+                cout << "\t";
             }
             cout << endl;
         }
