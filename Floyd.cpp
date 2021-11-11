@@ -37,9 +37,9 @@ int main()
         {
             for (int j = 0; j < V; j++)//пробегаем столбцы
             {
-                if (i!=j && G[i][j] > G[i][k] + G[j][k]) 
+                if (i!=j && G[i][j] > G[i][k] + G[k][j]) 
                 {
-                    G[i][j] = G[i][k] + G[j][k];
+                    G[i][j] = G[i][k] + G[k][j];
                     D[i][j] = k;
                 }
             }
