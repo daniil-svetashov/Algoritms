@@ -1,0 +1,5 @@
+﻿  Dijksta.cpp
+  The contents of <optional> are available only with C++17 or later.
+C:\Users\Даниил\Desktop\ТА\ПРАКТИКА\ПРАКТИКА 5\Dijkstra and Floyd\Dijkstra and Floyd\Dijkstra and Floyd\Dijksta.cpp(146,15): error C2429: для функция языка "структурированные привязки" нужен флаг компилятора "/std:c++17"
+  Floyd.cpp
+  Создание кода...
