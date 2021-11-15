@@ -16,3 +16,6 @@ https://prog-cpp.ru/deikstra/
 Про Флойда, ссылка от Юлии Дрозд
 https://www.mathros.net.ua/pryklad-znahodzhennja-dereva-minimalnoi-vartosti-dlja-orijentovanogo-grafa-za-algorytmom-flojda.html
 
+online compiler Dijkstra: https://code.sololearn.com/c4s2Dar9OV90
+
+online compiler Floyd: https://code.sololearn.com/cowENo1sC206
