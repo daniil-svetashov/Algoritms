@@ -65,7 +65,7 @@ void recursion(bool* visited,int* path,int path_index,int current)
                   path_index--;
                   current=path[path_index];
                   cout<<"We came to the previous vertex:"<<path[path_index]<<endl;
-		  recursion(visited,path,path_index,current);
-         }
+	          recursion(visited,path,path_index,current);
+	}
 }
 
