@@ -57,7 +57,7 @@ int main()
 	//change our vertex, we need to go to the previous one
 
 	bool all_visited;
-
+	visited[start]=true;
 	cout<<"WE START FROM: "<<start<<" ,then"<<endl;
 	do
 	{
